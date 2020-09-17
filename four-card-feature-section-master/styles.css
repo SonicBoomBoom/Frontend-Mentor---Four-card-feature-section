@@ -1,0 +1,83 @@
+body {
+  background-color: #FAFAFA;
+  /* color: #FAFAFA; */
+  font-family: 'Poppins', sans-serif;
+}
+
+#header {
+  text-align: center;
+  padding: 4% 32%;
+}
+
+h3 {
+  font-weight: 100;
+}
+
+p {
+  color: #A3A5AE;
+  font-size: 14.25px;
+  font-weight: 400;
+}
+
+.feature-header {
+  background-color: red;
+  height: 4px;
+  border-radius: 8px 8px 0 0;
+}
+
+h6 {
+  color: #4C4E61;
+  font-weight: 600;
+}
+
+img {
+  position: relative;
+  left: 78%;
+}
+
+.feature-row {
+  padding: 0 12%;
+  margin: 0;
+}
+
+.column-aside {
+  padding-top: 110px;
+}
+
+.card-shadow {
+  -webkit-box-shadow: 0 7px 15px 0 rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0 7px 15px 0 rgba(50, 50, 50, 0.5);
+  box-shadow: 0 7px 15px 0 rgba(50, 50, 50, 0.5);
+}
+
+/* .column{
+  padding: 1rem;
+} */
+@media (min-width: 320px) and (max-width: 1180px) {
+
+  #header {
+    padding: 4% 0;
+  }
+
+  .header-h3 {
+    font-size: 1.25rem;
+    /* padding: 0 10%; */
+  }
+
+  .header-paragraph {
+    padding: 0 5%;
+  }
+
+  .column-aside {
+    padding: 0;
+  }
+
+  .column {
+    padding: 1rem;
+  }
+
+  img {
+    position: relative;
+    left: 70%;
+  }
+}
